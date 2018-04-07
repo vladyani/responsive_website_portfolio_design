@@ -47,7 +47,7 @@ header nav ul {
     display: none;
 }
 
-header nav ul li{
+header nav ul li {
     border: 1px solid #111;
     background-color: #111;
     padding: 15px 20px 15px 20px;
@@ -118,7 +118,7 @@ header .header_projects {
     }
 
     header nav ul li a:hover {
-       border-bottom: 1px solid darkgrey;
+        border-bottom: 1px solid darkgrey;
     }
 
     header .header_projects {
@@ -261,12 +261,114 @@ header .header_projects {
         display: none;
     }
     */
-/*
+    /*
     .section_link_hover:hover {
         background-color: #efefef;
     }
 */
 }
+
+/* styles for project.html */
+
+.project_links {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.project_links h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.project_links .project_link {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0;
+    background-image:url(../img/panel20.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.project_links .project_link p {
+    padding-top: 45%;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(255,255,255, .9);
+    text-align: center;
+}
+
+.contact_banner {
+    width: 100%;
+    height: 200px;
+    background-color: #efefef;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.contact_banner p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 10px;
+}
+
+.contact_banner a {
+    text-decoration: none;
+    color: #111;
+}
+
+/*style for about.html*/
+
+.about_page h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+.about_page img {
+    border-radius: 25px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.about_page article h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+
+.about_page article p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 200px;
+    column-count: 3;
+    column-gap: 90px;
+}
+
+
+
+
+
 
 
 /*footer*/
@@ -294,7 +396,7 @@ footer ul li {
 
 footer ul li a {
     font-family: 'Catamaran', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     color: #fff;
     line-height: 50px;
 }
@@ -347,7 +449,7 @@ footer ul li a {
 
     footer ul li p {
         font-family: 'Catamaran', sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         color: #fff;
         line-height: 40px;
         text-transform: uppercase;
